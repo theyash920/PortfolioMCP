@@ -1,4 +1,4 @@
-# Next-Gen Portfolio with AI Twin — Built with Next.js 16, Sanity CMS, Clerk & OpenAI's NEW AgentKit & ChatKit
+# Yash Portfolio with AI Twin — Built with Next.js 16, Sanity CMS, Clerk & OpenAI's NEW AgentKit & ChatKit
 
 A stunning, AI-powered portfolio website featuring your **AI Twin** that represents you 24/7. Your digital clone answers questions about your experience, skills, and projects with intelligent, context-aware responses. Built with Next.js 16, Sanity CMS, Clerk authentication, and OpenAI ChatKit.
 
@@ -438,10 +438,5 @@ If you wish to use this code commercially or have licensing questions, please co
 
 ---
 
-## Support
-
-For support, email team@papareact.com
-
-Built with ❤️ for the PAPAFAM
 
 ---

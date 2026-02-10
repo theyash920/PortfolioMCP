@@ -1,4 +1,5 @@
 import { PortableText } from "@portabletext/react";
+import { IconExternalLink } from "@tabler/icons-react";
 import Image from "next/image";
 import { defineQuery } from "next-sanity";
 import { urlFor } from "@/sanity/lib/image";
@@ -16,6 +17,10 @@ const EXPERIENCE_QUERY =
   description,
   responsibilities,
   achievements,
+  relatedLinks[]{
+    title,
+    url
+  },
   technologies[]->{name, category},
   companyLogo,
   companyWebsite
@@ -102,6 +107,25 @@ export async function ExperienceSection() {
                         </>
                       )}
                     </div>
+                    {/* Related Links */}
+                    {exp.relatedLinks && exp.relatedLinks.length > 0 && (
+                      <div className="flex flex-wrap gap-3 mt-3">
+                        {exp.relatedLinks.map((link) =>
+                          link.url ? (
+                            <a
+                              key={link.url}
+                              href={link.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-primary hover:underline text-sm flex items-center gap-1"
+                            >
+                              {link.title || "Link"}
+                              <IconExternalLink className="w-3 h-3" />
+                            </a>
+                          ) : null,
+                        )}
+                      </div>
+                    )}
                   </div>
                 </div>
 

@@ -103,6 +103,28 @@ export default defineType({
       type: "url",
     }),
     defineField({
+      name: "relatedLinks",
+      title: "Related Links",
+      type: "array",
+      of: [
+        {
+          type: "object",
+          fields: [
+            defineField({
+              name: "title",
+              title: "Title",
+              type: "string",
+            }),
+            defineField({
+              name: "url",
+              title: "URL",
+              type: "url",
+            }),
+          ],
+        },
+      ],
+    }),
+    defineField({
       name: "order",
       title: "Display Order",
       type: "number",

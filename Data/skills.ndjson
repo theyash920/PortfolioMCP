@@ -1,0 +1,50 @@
+{"_type":"skill","_id":"skill-react","name":"React","category":"frontend","proficiency":"advanced","percentage":85,"color":"#61DAFB"}
+{"_type":"skill","_id":"skill-nextjs","name":"Next.js","category":"frontend","proficiency":"advanced","percentage":82,"color":"#000000"}
+{"_type":"skill","_id":"skill-typescript","name":"TypeScript","category":"frontend","proficiency":"intermediate","percentage":75,"color":"#3178C6"}
+{"_type":"skill","_id":"skill-tailwind","name":"Tailwind CSS","category":"frontend","proficiency":"advanced","percentage":85,"color":"#06B6D4"}
+{"_type":"skill","_id":"skill-responsive-design","name":"Responsive Design","category":"design","proficiency":"advanced","percentage":83}
+{"_type":"skill","_id":"skill-nodejs","name":"Node.js","category":"backend","proficiency":"advanced","percentage":80,"color":"#339933"}
+{"_type":"skill","_id":"skill-python","name":"Python","category":"backend","proficiency":"advanced","percentage":82,"color":"#3776AB"}
+{"_type":"skill","_id":"skill-fastapi","name":"FastAPI","category":"backend","proficiency":"advanced","percentage":84}
+{"_type":"skill","_id":"skill-restapi","name":"REST API","category":"backend","proficiency":"advanced","percentage":83}
+{"_type":"skill","_id":"skill-postgresql","name":"PostgreSQL","category":"database","proficiency":"intermediate","percentage":72,"color":"#336791"}
+{"_type":"skill","_id":"skill-mongodb","name":"MongoDB","category":"database","proficiency":"intermediate","percentage":70,"color":"#47A248"}
+{"_type":"skill","_id":"skill-redis","name":"Redis","category":"database","proficiency":"intermediate","percentage":68,"color":"#DC382D"}
+{"_type":"skill","_id":"skill-react-native","name":"React Native","category":"mobile","proficiency":"advanced","percentage":80,"color":"#61DAFB"}
+{"_type":"skill","_id":"skill-expo","name":"Expo","category":"mobile","proficiency":"advanced","percentage":78}
+{"_type":"skill","_id":"skill-docker","name":"Docker","category":"devops","proficiency":"intermediate","percentage":72,"color":"#2496ED"}
+{"_type":"skill","_id":"skill-kubernetes","name":"Kubernetes","category":"devops","proficiency":"beginner","percentage":60,"color":"#326CE5"}
+{"_type":"skill","_id":"skill-github-actions","name":"GitHub Actions","category":"devops","proficiency":"intermediate","percentage":70,"color":"#2088FF"}
+{"_type":"skill","_id":"skill-vercel","name":"Vercel","category":"cloud","proficiency":"advanced","percentage":82,"color":"#000000"}
+{"_type":"skill","_id":"skill-firebase","name":"Firebase","category":"cloud","proficiency":"intermediate","percentage":70,"color":"#FFCA28"}
+{"_type":"skill","_id":"skill-supabase","name":"Supabase","category":"cloud","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-agentic-ai","name":"Agentic AI Systems","category":"ai-ml","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-llm-reasoning","name":"LLM Reasoning","category":"ai-ml","proficiency":"advanced","percentage":88}
+{"_type":"skill","_id":"skill-openai","name":"LLM Integration","category":"ai-ml","proficiency":"advanced","percentage":90}
+{"_type":"skill","_id":"skill-ai-agents","name":"AI Agents","category":"ai-ml","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-agent-orchestration","name":"Agent Workflows","category":"ai-ml","proficiency":"intermediate","percentage":75}
+{"_type":"skill","_id":"skill-context-engineering","name":"Context Engineering","category":"ai-ml","proficiency":"advanced","percentage":82}
+{"_type":"skill","_id":"skill-rag","name":"RAG","category":"ai-ml","proficiency":"intermediate","percentage":90}
+{"_type":"skill","_id":"skill-llm-evaluation","name":"LLM Evaluation","category":"ai-ml","proficiency":"intermediate","percentage":70}
+{"_type":"skill","_id":"skill-ml-basics","name":"Machine Learning","category":"ai-ml","proficiency":"intermediate","percentage":80}
+{"_type":"skill","_id":"skill-git","name":"Git & GitHub","category":"tools","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-problem-solving","name":"Problem Solving","category":"soft-skills","proficiency":"advanced","percentage":88}
+{"_type":"skill","_id":"skill-communication","name":"Communication","category":"soft-skills","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-leadership","name":"Technical Leadership","category":"soft-skills","proficiency":"intermediate","percentage":75}
+{"_type":"skill","_id":"skill-ai","name":"Artificial Intelligence","category":"ai-ml","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-algorithms","name":"Algorithms","category":"soft-skills","proficiency":"advanced","percentage":80}
+{"_type":"skill","_id":"skill-backend-development","name":"Backend Development","category":"backend","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-authentication","name":"Authentication","category":"backend","proficiency":"intermediate","percentage":75}
+{"_type":"skill","_id":"skill-javascript","name":"JavaScript","category":"frontend","proficiency":"advanced","percentage":90,"color":"#F7DF1E"}
+{"_type":"skill","_id":"skill-aws","name":"AWS","category":"cloud","proficiency":"intermediate","percentage":70,"color":"#FF9900"}
+{"_type":"skill","_id":"skill-programming","name":"Programming Fundamentals","category":"backend","proficiency":"advanced","percentage":90}
+{"_type":"skill","_id":"skill-web-development","name":"Web Development","category":"frontend","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-software-engineering","name":"Software Engineering","category":"backend","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-modern-web","name":"Modern Web Technologies","category":"frontend","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-industry-practice","name":"Industry Best Practices","category":"soft-skills","proficiency":"advanced","percentage":80}
+{"_type":"skill","_id":"skill-critical-thinking","name":"Critical Thinking","category":"soft-skills","proficiency":"advanced","percentage":90}
+{"_type":"skill","_id":"skill-tensorflow","name":"TensorFlow","category":"ai-ml","proficiency":"intermediate","percentage":75,"color":"#FF6F00"}
+{"_type":"skill","_id":"skill-graphql","name":"GraphQL","category":"backend","proficiency":"intermediate","percentage":70,"color":"#E10098"}
+{"_type":"skill","_id":"skill-deep-learning","name":"Deep Learning","category":"ai-ml","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-nlp","name":"NLP","category":"ai-ml","proficiency":"advanced","percentage":85}
+{"_type":"skill","_id":"skill-react-native","name":"React Native","category":"frontend","proficiency":"advanced","percentage":90,"color":"#61DAFB"}

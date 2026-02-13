@@ -16,21 +16,6 @@ const PROJECTS_QUERY =
   technologies[]->{name, category, color}
 }`);
 
-interface Project {
-  title?: string;
-  slug?: { current: string };
-  tagline?: string;
-  category?: string;
-  liveUrl?: string;
-  githubUrl?: string;
-  coverImage?: any;
-  technologies?: Array<{
-    name?: string;
-    category?: string;
-    color?: string;
-  } | null>;
-}
-
 export async function ProjectsSection() {
   const { data: projects } = await sanityFetch({ query: PROJECTS_QUERY });
 
@@ -50,7 +35,7 @@ export async function ProjectsSection() {
 
         <div className="@container">
           <div className="grid grid-cols-1 @2xl:grid-cols-2 @5xl:grid-cols-3 gap-8">
-            {projects.map((project: Project) => (
+            {projects.map((project, idx) => (
               <div
                 key={project.slug?.current}
                 className="@container/card group bg-card border rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300"
@@ -140,10 +125,11 @@ export async function ProjectsSection() {
                   </div>
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
+            ))
+            }
+          </div >
+        </div >
+      </div >
+    </section >
   );
 }

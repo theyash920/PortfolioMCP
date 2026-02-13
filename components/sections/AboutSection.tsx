@@ -97,7 +97,7 @@ export async function AboutSection() {
         {profile.stats && profile.stats.length > 0 && (
           <div className="@container mt-12 pt-12 border-t">
             <div className="grid grid-cols-2 @lg:grid-cols-4 gap-6">
-              {profile.stats.map((stat: { label: string; value: string }, idx: number) => (
+              {profile.stats.map((stat, idx) => (
                 <div
                   key={`${stat.label}-${idx}`}
                   className="@container/stat text-center"

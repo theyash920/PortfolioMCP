@@ -29,6 +29,8 @@ export async function CertificationsSection() {
     return null;
   }
 
+  const displayedCertifications = certifications.slice(0, 6);
+
   const formatDate = (date: string) => {
     return new Date(date).toLocaleDateString("en-US", {
       year: "numeric",
@@ -59,7 +61,7 @@ export async function CertificationsSection() {
 
         <div className="@container">
           <div className="grid grid-cols-1 @2xl:grid-cols-2 gap-10">
-            {certifications.map((cert) => (
+            {displayedCertifications.map((cert) => (
               <CometCard
                 key={`${cert.issuer}-${cert.name}-${cert.issueDate}`}
                 rotateDepth={8}

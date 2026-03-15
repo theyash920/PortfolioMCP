@@ -6,7 +6,7 @@ import { urlFor } from "@/sanity/lib/image";
 import { sanityFetch } from "@/sanity/lib/live";
 
 const ACHIEVEMENTS_QUERY =
-  defineQuery(`*[_type == "achievement"] | order(date desc){
+  defineQuery(`*[_type == "achievement"] | order(order asc, date desc){
   title,
   type,
   issuer,
